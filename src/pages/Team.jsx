@@ -18,7 +18,7 @@ const Team = ()=>{
         </div>
            <div className="team-container">
                     <div>
-                        <img src="src/assets/image/leomar Abad.jpg" style={{borderRadius: '100%'}} width={240} height={240} alt="" />
+                        <img src="assets/image/leomar Abad.jpg" style={{borderRadius: '100%'}} width={240} height={240} alt="" />
                         <span className='member'>Leader</span>
                         <div>
                             <h4>Leomar T. Abad</h4>
