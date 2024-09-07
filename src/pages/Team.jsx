@@ -1,4 +1,5 @@
 import TeamCard from '../components/TeamCard';
+import abad from '../assets/image/leomar Abad.jpg';
 import '../css/team.css'
 const Team = ()=>{
     return(
@@ -18,7 +19,7 @@ const Team = ()=>{
         </div>
            <div className="team-container">
                     <div>
-                        <img src="assets/image/leomar Abad.jpg" style={{borderRadius: '100%'}} width={240} height={240} alt="" />
+                        <img src={abad} style={{borderRadius: '100%'}} width={240} height={240} alt="" />
                         <span className='member'>Leader</span>
                         <div>
                             <h4>Leomar T. Abad</h4>
