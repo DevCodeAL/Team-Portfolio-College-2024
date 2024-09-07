@@ -9,7 +9,7 @@
 }
 
 .about-parent{
-  background-image: url('src/assets/image/about.jpg');
+  background-image: url('../assets/image/about.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
