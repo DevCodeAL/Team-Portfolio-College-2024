@@ -18,10 +18,10 @@ const About = () => {
                 <p className='head-content'>Our mission is to innovate, collaborate, and create digital experiences that leave a lasting impact. We believe in the power of technology to transform lives and industries.</p>
               </div>
               <div>
-                <img src="src/assets/image/team.jpg" width={500} height={200} alt="" />
+                <img src="../assets/image/team.jpg" width={500} height={200} alt="" />
               </div>
               <div>
-                <img src="src/assets/image/standfor.jpg" width={500} height={200} alt="" />
+                <img src="../assets/image/standfor.jpg" width={500} height={200} alt="" />
               </div>
               <div>
               <h2 className='head-mission'>What We Stand For</h2>
@@ -33,11 +33,11 @@ const About = () => {
                     <p className='head-content'>From our humble beginnings to the impactful projects we’ve delivered, explore the milestones that have shaped our journey</p>
               </div>
               <div>
-                    <img src="src/assets/image/events.jpg" width={500} height={200} alt="" />
+                    <img src="../assets/image/events.jpg" width={500} height={200} alt="" />
               </div>
 
               <div>
-                    <img src="src/assets/image/inovation.jpg" alt="" width={500} height={200} />
+                    <img src="../assets/image/inovation.jpg" alt="" width={500} height={200} />
               </div>
               <div>
                 <h2 className='head-mission'>Why Choose Us</h2>
