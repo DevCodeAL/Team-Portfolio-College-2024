@@ -91,7 +91,7 @@ const Home = ()=>{
                 </div>
                 <div className="home-container">
                     <div className="fade-in">
-                       <img src="src/assets/image/html.png" width={100} height={100} alt="" />
+                       <img src={Html} width={100} height={100} alt="" />
                        <span>HTML</span>
                     </div>
                     <div className="fade-in">
