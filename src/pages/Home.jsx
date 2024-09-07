@@ -2,6 +2,10 @@ import { useEffect, useRef } from "react";
 import '../App.css';
 import Hero from "../components/Hero";
 import SEO from '../assets/image/handdesing.jpg';
+import UIUX from '../assets/image/ux.jpg';
+import WebDesign from '../assets/image/websitedesign.jpg';
+import Html from '../assets/image/html.png';
+
 
 const Home = ()=>{
     const containerRef = useRef(null);
@@ -72,11 +76,11 @@ const Home = ()=>{
                     </div>
                     <div className="fade-in">
                     <div className="img-title">UI / UX</div>
-                        <img src="src/assets/image/ux.jpg" width={300} height={272} alt="" />
+                        <img src={UIUX} width={300} height={272} alt="" />
                     </div>
                     <div className="fade-in">
                     <div className="img-title">Web Development</div>
-                        <img src="src/assets/image/websitedesign.jpg" width={300} height={272} alt="" />
+                        <img src={WebDesign} width={300} height={272} alt="" />
                     </div>
                 </div>
                
