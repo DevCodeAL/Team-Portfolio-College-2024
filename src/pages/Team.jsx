@@ -3,7 +3,13 @@ import abad from '../assets/image/leomar Abad.jpg';
 import tablang from '../assets/image/ralph.jpg';
 import santos from '../assets/image/santos.jpg';
 import orlan from '../assets/image/orlan.jpg';
+import startup from '../assets/image/startup-.jpg';
+import network from '../assets/image/network.jpg';
+import netIn from '../assets/image/netIn.jpg';
+ 
 import '../css/team.css'
+
+
 const Team = ()=>{
     return(
         <>
@@ -64,19 +70,19 @@ const Team = ()=>{
                     <div>
                         <h2 className='head-title'>Our Culture</h2>
                         <p className='subhead-content'>We believe that great work comes from a culture of collaboration, creativity, and mutual respect. Here’s a glimpse into what makes our team unique.</p>
-                        <img src="src/assets/image/startup-.jpg" width={330} height={200} alt="" />
+                        <img src={startup} width={330} height={200} alt="" />
                     </div>
 
                     <div>
                         <h2 className='head-title'>Want to Join Us?</h2>
                         <p className='subhead-content'>We’re always on the lookout for talented individuals who share our passion for innovation. If you think you’d be a great fit, we’d love to hear from you."</p>
-                        <img src="src/assets/image/network.jpg" width={330} height={200} alt="" />
+                        <img src={network} width={330} height={200} alt="" />
                     </div>
 
                     <div>
                         <h2 className='head-title'>Why Work with Us?</h2>
                         <p className='subhead-content'>Joining our team means being part of a dynamic environment where innovation meets opportunity. We prioritize professional growth, collaboration, and creativity.</p>
-                        <img src="src/assets/image/netIn.jpg" width={330} height={200} alt="" />
+                        <img src={netIn} width={330} height={200} alt="" />
                     </div>
                 </div>
 
