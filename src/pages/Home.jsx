@@ -1,6 +1,7 @@
 import { useEffect, useRef } from "react";
 import '../App.css';
 import Hero from "../components/Hero";
+import SEO from '../assets/image/handdesing.jpg';
 
 const Home = ()=>{
     const containerRef = useRef(null);
@@ -67,7 +68,7 @@ const Home = ()=>{
                     <span className="fade-in" id="title-line"></span>
                 <div className="fade-in">
                     <div className="img-title">SEO</div>
-                        <img src="src/assets/image/handdesing.jpg" width={300} height={272} alt="" />
+                        <img src={SEO} width={300} height={272} alt="" />
                     </div>
                     <div className="fade-in">
                     <div className="img-title">UI / UX</div>
