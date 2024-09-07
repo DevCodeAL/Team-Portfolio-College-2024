@@ -1,6 +1,8 @@
 import TeamCard from '../components/TeamCard';
 import abad from '../assets/image/leomar Abad.jpg';
 import tablang from '../assets/image/ralph.jpg';
+import santos from '../assets/image/santos.jpg';
+import orlan from '../assets/image/orlan.jpg';
 import '../css/team.css'
 const Team = ()=>{
     return(
@@ -36,7 +38,7 @@ const Team = ()=>{
                         </div>
                     </div>
                     <div>
-                    <img src="src/assets/image/santos.jpg" style={{borderRadius: '100%'}} width={240} height={240} alt="" />
+                    <img src={santos} style={{borderRadius: '100%'}} width={240} height={240} alt="" />
                     <span className='member'>Member</span>
                         <div>
                             <h4>Santos R. Garcia</h4>
@@ -44,7 +46,7 @@ const Team = ()=>{
                         </div>
                     </div>
                     <div>
-                    <img src="src/assets/image/orlan.jpg" style={{borderRadius: '100%'}} width={240} height={240} alt="" />
+                    <img src={orlan} style={{borderRadius: '100%'}} width={240} height={240} alt="" />
                     <span className='member'>Member</span>
                     <div>
                             <h4>Orlan James G. Sta Ana</h4>
