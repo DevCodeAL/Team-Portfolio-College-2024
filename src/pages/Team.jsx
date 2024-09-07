@@ -1,5 +1,6 @@
 import TeamCard from '../components/TeamCard';
 import abad from '../assets/image/leomar Abad.jpg';
+import tablang from '../assets/image/ralph.jpg';
 import '../css/team.css'
 const Team = ()=>{
     return(
@@ -27,7 +28,7 @@ const Team = ()=>{
                         </div>
                     </div>
                     <div>
-                    <img src="src/assets/image/ralph.jpg" style={{borderRadius: '100%'}} width={240} height={240} alt="" />
+                    <img src={tablang} style={{borderRadius: '100%'}} width={240} height={240} alt="" />
                     <span className='member'>Member</span>
                     <div>
                             <h4>Ralph Rainier E. Tablang</h4>
