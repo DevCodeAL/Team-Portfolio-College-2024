@@ -5,7 +5,7 @@
   }
 
   .team-card{
-    background-image: url('src/assets/image/meetTeam.jpg');
+    background-image: url('../assets/image/meetTeam.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
