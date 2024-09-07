@@ -5,6 +5,18 @@ import SEO from '../assets/image/handdesing.jpg';
 import UIUX from '../assets/image/ux.jpg';
 import WebDesign from '../assets/image/websitedesign.jpg';
 import Html from '../assets/image/html.png';
+import Css from '../assets/image/css.png';
+import Javascript from '../assets/image/JavaScript-logo.png';
+import Php from '../assets/image/php.png';
+import NodeJs from '../assets/image/nodejs.png';
+import mySql from '../assets/image/MySQL-Logo.png';
+import MongoDb from '../assets/image/Mongodb-PNG-Image-HD.png';
+import ReactJs from '../assets/image/react.png';
+import ExpressJs from '../assets/image/express.png';
+import Bootstrap from '../assets/image/bootstrap.png';
+import Git from '../assets/image/git.jpg';
+import Postman from '../assets/image/postman.png';
+
 
 
 const Home = ()=>{
@@ -95,27 +107,27 @@ const Home = ()=>{
                        <span>HTML</span>
                     </div>
                     <div className="fade-in">
-                        <img src="src/assets/image/css.png" width={100} height={100} alt="" />
+                        <img src={Css} width={100} height={100} alt="" />
                         <span>CSS</span>
                     </div>
                     <div className="fade-in">
-                        <img src="src/assets/image/JavaScript-logo.png" width={100} height={100} alt="" />
+                        <img src={Javascript} width={100} height={100} alt="" />
                         <span>JAVASCRIPT</span>
                     </div>
                     <div className="fade-in">
-                        <img src="src/assets/image/php.png" width={100} height={100} alt="" />
+                        <img src={Php} width={100} height={100} alt="" />
                         <span>PHP</span>
                     </div>
                     <div className="fade-in">
-                            <img src="src/assets/image/nodejs.png" width={100} height={100} alt="" />
+                            <img src={NodeJs} width={100} height={100} alt="" />
                             <span>NODE JS</span>
                         </div>
                     <div className="fade-in">
-                        <img src="src/assets/image/MySQL-Logo.png" width={100} height={100} alt="" />
+                        <img src={mySql} width={100} height={100} alt="" />
                         <span>MY SQL</span>
                     </div>
                     <div className="fade-in">
-                            <img src="src/assets/image/Mongodb-PNG-Image-HD.png" width={100} height={100} alt="" />
+                            <img src={MongoDb} width={100} height={100} alt="" />
                             <span>MONGO DB</span>
                         </div>
             </div>
@@ -126,25 +138,25 @@ const Home = ()=>{
             </div>
             <div className="home-container">
                         <div className="fade-in">
-                        <img src="src/assets/image/react.png" width={100} height={100} alt="" />
+                        <img src={ReactJs} width={100} height={100} alt="" />
                         <span>REACT JS</span>
                         </div>
                         <div className="fade-in">
-                            <img src="src/assets/image/express.png" width={100} height={100} alt="" />
+                            <img src={ExpressJs} width={100} height={100} alt="" />
                             <span>EXPRESS JS</span>
                         </div>
 
                         <div className="fade-in">
-                        <img src="src/assets/image/bootstrap.png" width={100} height={100} alt="" />
+                        <img src={Bootstrap} width={100} height={100} alt="" />
                         <span>BOOTSTRAP</span>
                     </div>
                        
                         <div className="fade-in">
-                            <img src="src/assets/image/git.jpg" width={100} height={100} alt="" />
+                            <img src={Git} width={100} height={100} alt="" />
                             <span>GIT</span>
                         </div>
                         <div className="fade-in">
-                            <img src="src/assets/image/postman.png" width={100} height={100} alt="" />
+                            <img src={Postman} width={100} height={100} alt="" />
                             <span>POSTMAN</span>
                         </div>
                     </div>
