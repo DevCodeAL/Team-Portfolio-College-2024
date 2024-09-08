@@ -97,7 +97,7 @@ const Home = ()=>{
                 </div>
                
                 
-                <div className="fade-in">
+            <div className="fade-in">
                 <h2 className="title-h1">Skills</h2>
                 <div id="ourmission-line"></div>
                 </div>
