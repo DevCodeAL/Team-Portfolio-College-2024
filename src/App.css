@@ -11,7 +11,7 @@ header{
     background-color: hsl(254, 62%, 4%);
     color: rgb(249, 243, 243);
     padding: 10px;
-    width: 100vw;
+    width: 100%;
 }
 
 
@@ -216,6 +216,18 @@ footer{
         footer{
             min-width: 800px;
         }
+
+        .team-logo{
+            display: none;
+        }
+
+        /* .ourmission-line{
+          display: block;
+          margin-left: -230px;
+          margin-right: -230px;
+          
+        } */
+        
   }
 
 .text-container{
@@ -229,7 +241,6 @@ footer{
 
 .title-h1{
     color:rgb(255, 165, 0);
-    padding: 20px;
 }
 
 .title-h{
@@ -272,8 +283,11 @@ footer{
 
 
 .ourmission-line{
-    position: relative;
-    top: -12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
     left: 513px;
     width: 90px;
     border: 1px solid orange;
