@@ -199,26 +199,18 @@ footer{
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-        .hero{
-            min-width: 800px;
-        }
+    .hero,
+    .h-child1,
+    .hero-parent,
+    footer {
+        width: 100%; /* Allow elements to scale down */
+    }
 
-        .h-child1{
-            min-width: 800px;
-        }
+    .team-logo {
+        display: none;
+    }  
+}
 
-        .hero-parent{
-            min-width: 800px;
-        }
-
-        footer{
-            min-width: 800px;
-        }
-
-        .team-logo{
-            display: none;
-        }  
-  }
 
 .text-container{
     position: relative;
@@ -394,7 +386,7 @@ footer{
   
   .fade-in {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
   }
   
