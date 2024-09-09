@@ -52,7 +52,7 @@ const Home = ()=>{
             <div className="hero-division">
                 <div className="h-child1">
                     <div  className="text-container">
-                    <h1 className="title-h">Hello World!</h1>
+                    <h1 className="title-h">Empowering Students: Web Development & Research for Innovative Capstone Projects</h1>
                     <p className="content">"We are a dedicated group of students from "College for Research and Technology", driven by a shared passion for research and technology. Our team is committed to pushing the boundaries of innovation, leveraging cutting-edge tools and methodologies to solve real-world problems."</p>
                     <hr className="line"/>
                     <button className="btn">FIND OUT MORE</button>
