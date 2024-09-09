@@ -220,13 +220,6 @@ footer{
         .team-logo{
             display: none;
         }
-
-        /* .ourmission-line{
-          display: block;
-          margin-left: -230px;
-          margin-right: -230px;
-          
-        } */
         
   }
 
@@ -294,18 +287,24 @@ footer{
 }
 
 #ourmission-line{
-    position: relative;
-    top: -12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
     left: 513px;
-    width: 180px;
+    width: 90px;
     border: 1px solid orange;
 }
 
 #ourmission-lines{
-    position: relative;
-    top: -12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
     left: 513px;
-    width: 180px;
+    width: 90px;
     border: 1px solid orange;
 }
 
