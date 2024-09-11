@@ -199,18 +199,20 @@ footer{
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-    .hero,
-    .h-child1,
-    .hero-parent,
-    footer {
-        width: 100%; /* Allow elements to scale down */
-    }
+        .hero, .h-child1, .hero-parent, footer{
+            min-width: 800px;
+        }
 
-    .team-logo {
-        display: none;
-    }  
-}
+        .team-logo{
+            display: none;
+        }  
 
+        .hero-division{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+  }
 
 .text-container{
     position: relative;
