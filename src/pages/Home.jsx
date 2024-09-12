@@ -103,31 +103,31 @@ const Home = ()=>{
                 </div>
                 <div className="home-container">
                     <div className="fade-in">
-                       <img src={Html} width={100} height={100}  alt="" />
+                       <img src={Html} width={100} height={100} className="skill-img"  alt="" />
                        <span>HTML</span>
                     </div>
                     <div className="fade-in">
-                        <img src={Css} width={100} height={100}  alt="" />
+                        <img src={Css} width={100} height={100} className="skill-img"  alt="" />
                         <span>CSS</span>
                     </div>
                     <div className="fade-in">
-                        <img src={Javascript} width={100} height={100} alt="" />
+                        <img src={Javascript} width={100} height={100} className="skill-img" alt="" />
                         <span>JAVASCRIPT</span>
                     </div>
                     <div className="fade-in">
-                        <img src={Php} width={100} height={100} alt="" />
+                        <img src={Php} width={100} height={100} className="skill-img" alt="" />
                         <span>PHP</span>
                     </div>
                     <div className="fade-in">
-                            <img src={NodeJs} width={100} height={100} alt="" />
+                            <img src={NodeJs} width={100} height={100} className="skill-img" alt="" />
                             <span>NODE JS</span>
                         </div>
                     <div className="fade-in">
-                        <img src={mySql} width={100} height={100} alt="" />
+                        <img src={mySql} width={100} height={100} className="skill-img" alt="" />
                         <span>MY SQL</span>
                     </div>
                     <div className="fade-in">
-                            <img src={MongoDb} width={100} height={100} alt="" />
+                            <img src={MongoDb} width={100} height={100} className="skill-img" alt="" />
                             <span>MONGO DB</span>
                         </div>
             </div>
@@ -138,31 +138,30 @@ const Home = ()=>{
             </div>
             <div className="home-container">
                         <div className="fade-in">
-                        <img src={ReactJs} width={100} height={100} alt="" />
+                        <img src={ReactJs} width={100} height={100} className="skill-img" alt="" />
                         <span>REACT JS</span>
                         </div>
                         <div className="fade-in">
-                            <img src={ExpressJs} width={100} height={100} alt="" />
+                            <img src={ExpressJs} width={100} height={100} className="skill-img" alt="" />
                             <span>EXPRESS JS</span>
                         </div>
 
                         <div className="fade-in">
-                        <img src={Bootstrap} width={100} height={100} alt="" />
+                        <img src={Bootstrap} width={100} height={100} className="skill-img" alt="" />
                         <span>BOOTSTRAP</span>
                     </div>
                        
                         <div className="fade-in">
-                            <img src={Git} width={100} height={100} alt="" />
+                            <img src={Git} width={100} height={100} className="skill-img" alt="" />
                             <span>GIT</span>
                         </div>
                         <div className="fade-in">
-                            <img src={Postman} width={100} height={100} alt="" />
+                            <img src={Postman} width={100} height={100} className="skill-img" alt="" />
                             <span>POSTMAN</span>
                         </div>
                     </div>
                     </div>
-        </div>
-         
+        </div>  
         </>
     )
 }
