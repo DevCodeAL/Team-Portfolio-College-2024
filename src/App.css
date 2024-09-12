@@ -197,22 +197,6 @@ footer{
     z-index: 0;
 }
 
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
-        .hero, .h-child1, .hero-parent, footer{
-            min-width: 800px;
-        }
-
-        .team-logo{
-            display: none;
-        }  
-
-        .hero-division{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-  }
 
 .text-container{
     position: relative;
@@ -397,3 +381,26 @@ footer{
     transform: translateY(0);
   }
   
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+        .hero, .h-child1, .hero-parent, footer{
+            min-width: 800px;
+        }
+
+        .title-h{
+            font-size: 1.5rem;
+        }
+
+        .team-logo{
+            display: none;
+        }  
+
+        .hero-division{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+  }
+
+
