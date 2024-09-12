@@ -416,6 +416,11 @@ footer{
     .title-h {
         font-size: 1.25rem;
     }
+
+    .img-title, span{
+        font-size: 2vw;
+    }
+
     .content {
         font-size: 0.875rem;
     }
