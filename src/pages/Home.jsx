@@ -84,15 +84,15 @@ const Home = ()=>{
                     <span className="fade-in" id="title-line"></span>
                 <div className="fade-in">
                     <div className="img-title">SEO</div>
-                        <img src={SEO} width={300} height={272} alt="" />
+                        <img src={SEO} width={300} height={272} className="skill-img" alt="" />
                     </div>
                     <div className="fade-in">
                     <div className="img-title">UI / UX</div>
-                        <img src={UIUX} width={300} height={272} alt="" />
+                        <img src={UIUX} width={300} height={272} className="skill-img" alt="" />
                     </div>
                     <div className="fade-in">
                     <div className="img-title">Web Development</div>
-                        <img src={WebDesign} width={300} height={272} alt="" />
+                        <img src={WebDesign} width={300} height={272} className="skill-img" alt="" />
                     </div>
                 </div>
                
@@ -103,11 +103,11 @@ const Home = ()=>{
                 </div>
                 <div className="home-container">
                     <div className="fade-in">
-                       <img src={Html} width={100} height={100} alt="" />
+                       <img src={Html} width={100} height={100}  alt="" />
                        <span>HTML</span>
                     </div>
                     <div className="fade-in">
-                        <img src={Css} width={100} height={100} alt="" />
+                        <img src={Css} width={100} height={100}  alt="" />
                         <span>CSS</span>
                     </div>
                     <div className="fade-in">
